@@ -1,0 +1,26 @@
+{
+  "name": "tigo beta",
+  "version": "0.0.1",
+  "authors": [
+    "moiroca <rocajohntemoty@gmail.com>"
+  ],
+  "description": "4th year IT student",
+  "keywords": [
+    "guessing",
+    "game"
+  ],
+  "license": "MIT",
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "angular-route": "https://github.com/angular/bower-angular-route.git#~1.3.11",
+    "bootstrap": "~3.3.2",
+    "font-awesome": "~4.3.0"
+  }
+}

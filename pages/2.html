@@ -1,0 +1,24 @@
+<div class="row" >
+	<div>
+		<div class="panel panel-primary">
+			<div class="panel-heading clearfix">
+				<button class="btn btn-disabled btn-xs btn-danger pull-right">Score: {{score}}</button>
+				<h3 class="panel-title pull-left">{{title}}: {{subTitle}}</h3>
+			</div>
+			<div class="panel-body">
+				<img  src={{imgs.path}} alt="..." class="img-rounded  img-size" />
+				<form>
+					<div class="form-group">
+						<div data-ng-if="imageName == imgs.name " class="alert alert-success" >
+							<p>{{ imgs.name | uppercase }} is Correct! </p>
+							<a ng-click="incrementScore()" href="#/img3" class="btn btn-primary btn-xs"><i class="fa fa-arrow-right fa-1x"></i> See Next Logo </a> 
+						</div>
+						<div class="control-group">
+							<input ng-model="imageName" placeholder="Enter Name of Logo..." type="text" class="form-control"/>
+						</div>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+</div>
